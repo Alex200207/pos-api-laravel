@@ -16,54 +16,54 @@ API RESTful desarrollada con PHP/Laravel para la gestión de inventario, ventas 
 ### Proveedores 🏢
 | Método | Ruta | Descripción | Estado |
 |--------|------|-------------|---------|
-| GET | `/api/proveedores` | Obtener todos los proveedores | ⏳ Pendiente |
-| GET | `/api/proveedores/{id}` | Obtener un proveedor específico | ⏳ Pendiente |
-| POST | `/api/proveedores` | Crear nuevo proveedor | ⏳ Pendiente |
-| PUT | `/api/proveedores/{id}` | Actualizar proveedor | ⏳ Pendiente |
-| DELETE | `/api/proveedores/{id}` | Eliminar proveedor | ⏳ Pendiente |
+| GET | `/api/proveedores` | Obtener todos los proveedores | ✅ Completado |
+| GET | `/api/proveedores/{id}` | Obtener un proveedor específico | ✅ Completado |
+| POST | `/api/proveedores` | Crear nuevo proveedor | ✅ Completado |
+| PUT | `/api/proveedores/{id}` | Actualizar proveedor | ✅ Completado |
+| DELETE | `/api/proveedores/{id}` | Eliminar proveedor | ✅ Completado |
 
 ### Clientes 👥
 | Método | Ruta | Descripción | Estado |
 |--------|------|-------------|---------|
-| GET | `/api/clientes` | Obtener todos los clientes | ⏳ Pendiente |
-| GET | `/api/clientes/{id}` | Obtener un cliente específico | ⏳ Pendiente |
-| POST | `/api/clientes` | Crear nuevo cliente | ⏳ Pendiente |
-| PUT | `/api/clientes/{id}` | Actualizar cliente | ⏳ Pendiente |
-| DELETE | `/api/clientes/{id}` | Eliminar cliente | ⏳ Pendiente |
+| GET | `/api/clientes` | Obtener todos los clientes | ✅ Completado |
+| GET | `/api/clientes/{id}` | Obtener un cliente específico | ✅ Completado |
+| POST | `/api/clientes` | Crear nuevo cliente | ✅ Completado |
+| PUT | `/api/clientes/{id}` | Actualizar cliente | ✅ Completado |
+| DELETE | `/api/clientes/{id}` | Eliminar cliente | ✅ Completado |
 
 ### Ventas 💰
 | Método | Ruta | Descripción | Estado |
 |--------|------|-------------|---------|
-| GET | `/api/ventas` | Obtener todas las ventas | ⏳ Pendiente |
-| GET | `/api/ventas/{id}` | Obtener una venta específica | ⏳ Pendiente |
-| POST | `/api/ventas` | Crear nueva venta | ⏳ Pendiente |
-| PUT | `/api/ventas/{id}` | Actualizar venta | ⏳ Pendiente |
-| DELETE | `/api/ventas/{id}` | Eliminar venta | ⏳ Pendiente |
+| GET | `/api/ventas` | Obtener todas las ventas | ✅ Completado |
+| GET | `/api/ventas/{id}` | Obtener una venta específica | ✅ Completado |
+| POST | `/api/ventas` | Crear nueva venta | ✅ Completado |
+| PUT | `/api/ventas/{id}` | Actualizar venta | ✅ Completado |
+| DELETE | `/api/ventas/{id}` | Eliminar venta | ✅ Completado |
 
 ### Compras 🛒
 | Método | Ruta | Descripción | Estado |
 |--------|------|-------------|---------|
-| GET | `/api/compras` | Obtener todas las compras | ⏳ Pendiente |
-| GET | `/api/compras/{id}` | Obtener una compra específica | ⏳ Pendiente |
-| POST | `/api/compras` | Crear nueva compra | ⏳ Pendiente |
-| PUT | `/api/compras/{id}` | Actualizar compra | ⏳ Pendiente |
-| DELETE | `/api/compras/{id}` | Eliminar compra | ⏳ Pendiente |
+| GET | `/api/compras` | Obtener todas las compras | ✅ Completado |
+| GET | `/api/compras/{id}` | Obtener una compra específica | ✅ Completado |
+| POST | `/api/compras` | Crear nueva compra | ✅ Completado |
+| PUT | `/api/compras/{id}` | Actualizar compra | ✅ Completado |
+| DELETE | `/api/compras/{id}` | Eliminar compra | ✅ Completado |
 
 ## 🔄 Relaciones
 
 ### ProductoVenta (Pivot)
 | Método | Ruta | Descripción | Estado |
 |--------|------|-------------|---------|
-| GET | `/api/producto-venta` | Obtener todas las relaciones | ⏳ Pendiente |
-| POST | `/api/producto-venta` | Crear nueva relación | ⏳ Pendiente |
-| DELETE | `/api/producto-venta/{id}` | Eliminar relación | ⏳ Pendiente |
+| GET | `/api/producto-venta` | Obtener todas las relaciones | ✅ Completado |
+| POST | `/api/producto-venta` | Crear nueva relación | ✅ Completado |
+| DELETE | `/api/producto-venta/{id}` | Eliminar relación | ✅ Completado |
 
 ### CompraProducto (Pivot)
 | Método | Ruta | Descripción | Estado |
 |--------|------|-------------|---------|
-| GET | `/api/compra-producto` | Obtener todas las relaciones | ⏳ Pendiente |
-| POST | `/api/compra-producto` | Crear nueva relación | ⏳ Pendiente |
-| DELETE | `/api/compra-producto/{id}` | Eliminar relación | ⏳ Pendiente |
+| GET | `/api/compra-producto` | Obtener todas las relaciones | ✅ Completado |
+| POST | `/api/compra-producto` | Crear nueva relación | ✅ Completado |
+| DELETE | `/api/compra-producto/{id}` | Eliminar relación | ✅ Completado |
 
 ## 🛠️ Tecnologías Utilizadas
 
@@ -77,46 +77,45 @@ API RESTful desarrollada con PHP/Laravel para la gestión de inventario, ventas 
 Sigue estos pasos para instalar y ejecutar el proyecto localmente:
 
 1. **Clona el repositorio:**
-   ```bash
-   git clone https://github.com/profcswni/pos-api-laravel
-   ```
-   **Ingresa a la carpeta:**
-   ```bash
-   cd pos-api-laravel
-   ```
+    ```bash
+    git clone https://github.com/profcswni/pos-api-laravel
+    ```
+    **Ingresa a la carpeta:**
+    ```bash
+    cd pos-api-laravel
+    ```
 
 2. **Instala las dependencias de PHP:**
-   ```bash
-   composer install
-   ```
+    ```bash
+    composer install
+    ```
 3. **Copia el archivo de entorno y configura tus variables:**
-   ```bash
-   cp .env.example .env
-   # Edita el archivo .env con tus credenciales de base de datos
-   ```
+    ```bash
+    cp .env.example .env
+    # Edita el archivo .env con tus credenciales de base de datos
+    ```
 4. **Genera la clave de la aplicación:**
-   ```bash
-   php artisan key:generate
-   ```
+    ```bash
+    php artisan key:generate
+    ```
 5. **Ejecuta las migraciones para crear las tablas:**
-   ```bash
-   php artisan migrate
-   ```
+    ```bash
+    php artisan migrate
+    ```
 6. **(Opcional) Pobla la base de datos con datos de ejemplo:**
-   ```bash
-   php artisan db:seed
-   ```
+    ```bash
+    php artisan db:seed
+    ```
 7. **Añade el proyecto a Laravel Herd:**
-   ```bash
-   Abre Herd y añade el sitio para activarlo. Tambien puedes ejecutar php artisan serve
-   ```
+    ```bash
+    Abre Herd y añade el sitio para activarlo. Tambien puedes ejecutar php artisan serve
+    ```
 
 La API estará disponible en `http://localhost:8000` por defecto.
 
 ## 📝 Notas
 
 - ✅ Endpoints Completados
-- ⏳ Endpoints Pendientes
 
 ## 🔍 Pruebas
 
@@ -128,3 +127,4 @@ Los endpoints pueden ser probados utilizando:
 ## 📚 Documentación Adicional
 
 Para más detalles sobre la implementación y uso de cada endpoint, consulte la documentación específica de cada recurso.
+

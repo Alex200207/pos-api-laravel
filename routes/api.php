@@ -22,8 +22,8 @@ Route::apiResource('/ventas', VentasController::class);
 Route::apiResource('/compras', ComprasController::class);
 Route::apiResource('/producto-ventas', ProductoVentaController::class);
 Route::apiResource('/compra-producto', CompraProductoController::class);
-Route::apiResource('/todos', [TodoController::class]);
-//cerrar sesion
+Route::apiResource('/todos', TodoController::class);
+
 Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 });
 

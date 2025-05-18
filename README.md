@@ -37,7 +37,7 @@ API RESTful desarrollada con PHP/Laravel para la gestión de inventario, ventas 
 | GET | `/api/todos` | Obtener todos | ✅ Completado |
 | POST | `/api/todos` | Crear un todo| ✅ Completado |
 | DELETE | `/api/todos/{id}` | Eliminar todo | ✅ Completado |
-| UPDATE | `/api/todos/{id} | Actualizar un Todo| ✅ Completado |
+| UPDATE | `/api/todos/{id}` | Actualizar un Todo| ✅ Completado |
 
 ### Ventas 💰
 | Método | Ruta | Descripción | Estado |

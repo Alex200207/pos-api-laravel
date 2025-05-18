@@ -31,6 +31,14 @@ API RESTful desarrollada con PHP/Laravel para la gestión de inventario, ventas 
 | PUT | `/api/clientes/{id}` | Actualizar cliente | ✅ Completado |
 | DELETE | `/api/clientes/{id}` | Eliminar cliente | ✅ Completado |
 
+### Todos
+| Método | Ruta | Descripción | Estado |
+|--------|------|-------------|---------|
+| GET | `/api/todos` | Obtener todos | ✅ Completado |
+| POST | `/api/todos` | Crear un todo| ✅ Completado |
+| DELETE | `/api/todos/{id}` | Eliminar todo | ✅ Completado |
+| UPDATE | `/api/todos/{id} | Actualizar un Todo| ✅ Completado |
+
 ### Ventas 💰
 | Método | Ruta | Descripción | Estado |
 |--------|------|-------------|---------|
@@ -64,6 +72,8 @@ API RESTful desarrollada con PHP/Laravel para la gestión de inventario, ventas 
 | GET | `/api/compra-producto` | Obtener todas las relaciones | ✅ Completado |
 | POST | `/api/compra-producto` | Crear nueva relación | ✅ Completado |
 | DELETE | `/api/compra-producto/{id}` | Eliminar relación | ✅ Completado |
+
+
 
 ## 🛠️ Tecnologías Utilizadas
 

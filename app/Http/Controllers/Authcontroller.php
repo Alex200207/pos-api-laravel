@@ -9,7 +9,7 @@ class AuthController extends Controller
     // Método para iniciar sesión
     public function login(Request $request)
     {
-        // Validar los datos de entrada
+        // Validar los datos de entrada 
         $request->validate([
             'email' => 'required|email',
             'password' => 'required',
